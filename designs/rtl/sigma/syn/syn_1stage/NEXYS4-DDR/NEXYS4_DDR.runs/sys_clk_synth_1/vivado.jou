@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Dec 18 11:39:54 2020
+# Process ID: 2660
+# Current directory: F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.runs/sys_clk_synth_1
+# Command line: vivado.exe -log sys_clk.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sys_clk.tcl
+# Log file: F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.runs/sys_clk_synth_1/sys_clk.vds
+# Journal file: F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.runs/sys_clk_synth_1\vivado.jou
+#-----------------------------------------------------------
+source sys_clk.tcl -notrace

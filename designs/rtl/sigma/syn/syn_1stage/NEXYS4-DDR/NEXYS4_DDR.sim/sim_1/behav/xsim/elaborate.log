@@ -1,0 +1,21 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto dbe4f722851248e3976cc912f1a3ff99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot riscv_tb_behav xil_defaultlib.riscv_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 36 differs from formal bit length 16 for port 'irq_debounced_bi' [F:/Vivado/Downloads/activecore/designs/rtl/sigma/hw/sigma.sv:69]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 32 for port 'bus0_addr_bi' [F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sigma_tile.sv:454]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 32 for port 'bus1_addr_bi' [F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sigma_tile.sv:464]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 30 for port 'adr0_i' [F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual_memsplit.v:63]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 30 for port 'adr1_i' [F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual_memsplit.v:68]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 20 for port 'adr0_i' [F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sfr.sv:95]
+WARNING: [VRFC 10-3091] actual bit length 160 differs from formal bit length 20 for port 'adr1_i' [F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sfr.sv:100]
+WARNING: [VRFC 10-3091] actual bit length 36 differs from formal bit length 8 for port 'irq_fifo_genfifo_rdata_bi' [F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sigma_tile.sv:94]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/Vivado/Downloads/activecore/designs/rtl/sigma/hw/sigma.sv:69]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sigma_tile.sv:94]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v:55]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v:61]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v:120]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

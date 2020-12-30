@@ -1,0 +1,57 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+WARNING: Insufficient data from the input file for $fread
+
+##################################
+#### Loading elf file: F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv
+e_phnum: 0x00000001
+---- HEADER: 0 ----
+p_type: 0x00000001
+p_offset: 0x00000000
+p_vaddr: 0x00000000
+p_paddr: 0x00000000
+p_filesz: 0x00000538
+p_memsz: 0x00000538
+p_flags: 0x00000007
+p_align: 0x00001000
+##################################
+
+### SIMULATION STARTED ###
+WARNING: Insufficient data from the input file for $fread
+
+##################################
+#### Loading elf file: F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv
+e_phnum: 0x00000001
+---- HEADER: 0 ----
+p_type: 0x00000001
+p_offset: 0x00000000
+p_vaddr: 0x00000000
+p_paddr: 0x00000000
+p_filesz: 0x00000538
+p_memsz: 0x00000538
+p_flags: 0x00000007
+p_align: 0x00001000
+##################################
+
+### SIMULATION STARTED ###
+UDM WR32: addr: 0x80000000, data: 0xdeadbeef
+UDM WR32: addr: 0x0010002c, data: 0x00000001
+UDM WR32: addr: 0x00100004, data: 0x00111111
+UDM WR32: addr: 0x00100010, data: 0x00222222
+UDM WR32: addr: 0x00100014, data: 0x00333333
+UDM WR32: addr: 0x00100020, data: 0x00444444
+UDM WR32: addr: 0x00100024, data: 0x00555555
+UDM WR32: addr: 0x0010004c, data: 0x00000000
+UDM WR32: addr: 0x00100020, data: 0x00cccccc
+UDM WR32: addr: 0x00100024, data: 0x00ffffff
+UDM WR32: addr: 0x00100024, data: 0x00aaaaaa
+UDM WR32: addr: 0x0010002c, data: 0x00000000
+UDM RD32: addr: 0x00100050, data: 0xxxxxxxxx
+UDM RD32: addr: 0x00100054, data: 0x00111111
+UDM RD32: addr: 0x00100058, data: 0x00100004
+UDM RD32: addr: 0x0010005c, data: 0x00000001
+UDM RD32: addr: 0x00100060, data: 0x00000000
+UDM RD32: addr: 0x00100064, data: 0x00222222
+UDM RD32: addr: 0x00100068, data: 0x00100010
+### TEST PROCEDURE FINISHED ###
+$stop called at time : 516605 ns : File "F:/Vivado/Downloads/activecore/designs/rtl/sigma/tb/riscv_tb.sv" Line 171

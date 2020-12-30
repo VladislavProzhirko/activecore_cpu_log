@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="riscv_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_arb_1m2s_sv " />
+            <top_module name="glbl" />
+            <top_module name="riscv_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="516562541fs"></ZoomStartTime>
+      <ZoomEndTime time="516568492fs"></ZoomEndTime>
+      <Cursor1Time time="516605000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="286"></NameColumnWidth>
+      <ValueColumnWidth column_width="231"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/riscv_tb/CLK_100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK_100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/SW" type="array">
+      <obj_property name="ElementShortName">SW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/LED" type="array">
+      <obj_property name="ElementShortName">LED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/irq_btn" type="logic">
+      <obj_property name="ElementShortName">irq_btn</obj_property>
+      <obj_property name="ObjectShortName">irq_btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/parity" type="logic">
+      <obj_property name="ElementShortName">parity</obj_property>
+      <obj_property name="ObjectShortName">parity</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/rate" type="array">
+      <obj_property name="ElementShortName">rate[32:0]</obj_property>
+      <obj_property name="ObjectShortName">rate[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/configuration" type="array">
+      <obj_property name="ElementShortName">configuration[1:0]</obj_property>
+      <obj_property name="ObjectShortName">configuration[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/CPU_RAM_ADDR" type="array">
+      <obj_property name="ElementShortName">CPU_RAM_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPU_RAM_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/CSR_LED_ADDR" type="array">
+      <obj_property name="ElementShortName">CSR_LED_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSR_LED_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/CSR_SW_ADDR" type="array">
+      <obj_property name="ElementShortName">CSR_SW_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSR_SW_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/testmem_host_wdata" type="array">
+      <obj_property name="ElementShortName">testmem_host_wdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">testmem_host_wdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group41" type="group">
+      <obj_property name="label">hif</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/riscv_tb/sigma/hif/rdata" type="array">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/hif/resp" type="logic">
+         <obj_property name="ElementShortName">resp</obj_property>
+         <obj_property name="ObjectShortName">resp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/hif/be" type="array">
+         <obj_property name="ElementShortName">be[3:0]</obj_property>
+         <obj_property name="ObjectShortName">be[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/hif/we" type="logic">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/hif/addr" type="array">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/hif/ack" type="logic">
+         <obj_property name="ElementShortName">ack</obj_property>
+         <obj_property name="ObjectShortName">ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/hif/req" type="logic">
+         <obj_property name="ElementShortName">req</obj_property>
+         <obj_property name="ObjectShortName">req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/hif/wdata" type="array">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group157" type="group">
+      <obj_property name="label">host</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/req" type="logic">
+         <obj_property name="ElementShortName">req</obj_property>
+         <obj_property name="ObjectShortName">req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/ack" type="logic">
+         <obj_property name="ElementShortName">ack</obj_property>
+         <obj_property name="ObjectShortName">ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/addr" type="array">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/we" type="logic">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/wdata" type="array">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/be" type="array">
+         <obj_property name="ElementShortName">be[3:0]</obj_property>
+         <obj_property name="ObjectShortName">be[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/resp" type="logic">
+         <obj_property name="ElementShortName">resp</obj_property>
+         <obj_property name="ObjectShortName">resp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/host/rdata" type="array">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group127" type="group">
+      <obj_property name="label">ram_sfr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/dat0_i" type="array">
+         <obj_property name="ElementShortName">dat0_i[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dat0_i[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/adr0_i" type="array">
+         <obj_property name="ElementShortName">adr0_i[19:0]</obj_property>
+         <obj_property name="ObjectShortName">adr0_i[19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/we0_i" type="logic">
+         <obj_property name="ElementShortName">we0_i</obj_property>
+         <obj_property name="ObjectShortName">we0_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/dat0_o" type="array">
+         <obj_property name="ElementShortName">dat0_o[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dat0_o[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/testmem_host_enb" type="logic">
+         <obj_property name="ElementShortName">testmem_host_enb</obj_property>
+         <obj_property name="ObjectShortName">testmem_host_enb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/dat1_i" type="array">
+         <obj_property name="ElementShortName">dat1_i[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dat1_i[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/adr1_i" type="array">
+         <obj_property name="ElementShortName">adr1_i[19:0]</obj_property>
+         <obj_property name="ObjectShortName">adr1_i[19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/we1_i" type="logic">
+         <obj_property name="ElementShortName">we1_i</obj_property>
+         <obj_property name="ObjectShortName">we1_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/mem/dat1_o" type="array">
+         <obj_property name="ElementShortName">dat1_o[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dat1_o[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/i" type="array">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/j" type="array">
+         <obj_property name="ElementShortName">j[1:0]</obj_property>
+         <obj_property name="ObjectShortName">j[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/testmem_host_dly" type="logic">
+         <obj_property name="ElementShortName">testmem_host_dly</obj_property>
+         <obj_property name="ObjectShortName">testmem_host_dly</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/sigma/sigma_tile/sfr/testmem_host" type="logic">
+         <obj_property name="ElementShortName">testmem_host</obj_property>
+         <obj_property name="ObjectShortName">testmem_host</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

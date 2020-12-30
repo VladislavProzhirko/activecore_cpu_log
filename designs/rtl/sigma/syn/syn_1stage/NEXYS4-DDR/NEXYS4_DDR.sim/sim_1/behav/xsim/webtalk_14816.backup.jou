@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 20 19:43:02 2020
+# Process ID: 14816
+# Current directory: F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/riscv_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/Vivado/Downloads/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/riscv_tb_behav/webtalk/xsim_webtalk.tcl -notrace
