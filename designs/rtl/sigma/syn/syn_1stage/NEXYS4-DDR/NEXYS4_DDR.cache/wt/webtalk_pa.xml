@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed Dec 30 17:42:00 2020">
+<application name="pa" timeStamp="Sat Jan  2 14:50:29 2021">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="9b7d4a5bd2154c9cb077574b061e5def" type="ProjectID"/>
 <property name="ProjectIteration" value="2" type="ProjectIteration"/>
@@ -19,8 +19,8 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Java Command Handlers">
 <property name="EditRedo" value="8" type="JavaHandler"/>
 <property name="EditUndo" value="6" type="JavaHandler"/>
-<property name="FileExit" value="15" type="JavaHandler"/>
-<property name="OpenProject" value="14" type="JavaHandler"/>
+<property name="FileExit" value="16" type="JavaHandler"/>
+<property name="OpenProject" value="15" type="JavaHandler"/>
 <property name="ReportIPStatus" value="1" type="JavaHandler"/>
 <property name="ReportTimingSummary" value="1" type="JavaHandler"/>
 <property name="ReportUtilization" value="1" type="JavaHandler"/>
@@ -29,10 +29,10 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="RunSynthesis" value="2" type="JavaHandler"/>
 <property name="ShowView" value="1" type="JavaHandler"/>
 <property name="SimulationBreak" value="3" type="JavaHandler"/>
-<property name="SimulationRelaunch" value="86" type="JavaHandler"/>
-<property name="SimulationRestart" value="94" type="JavaHandler"/>
-<property name="SimulationRun" value="23" type="JavaHandler"/>
-<property name="SimulationRunAll" value="296" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="87" type="JavaHandler"/>
+<property name="SimulationRestart" value="96" type="JavaHandler"/>
+<property name="SimulationRun" value="24" type="JavaHandler"/>
+<property name="SimulationRunAll" value="298" type="JavaHandler"/>
 <property name="ToolsTemplates" value="1" type="JavaHandler"/>
 <property name="UpgradeIP" value="1" type="JavaHandler"/>
 <property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
@@ -48,37 +48,49 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ClosePlanner_YES" value="1" type="GuiHandlerData"/>
 <property name="CmdMsgDialog_OK" value="6" type="GuiHandlerData"/>
 <property name="CommandsInput_TYPE_TCL_COMMAND_HERE" value="2" type="GuiHandlerData"/>
+<property name="EditorOptions_EDITOR_OPTIONS_PANE" value="7" type="GuiHandlerData"/>
 <property name="ExpRunTreePanel_EXP_RUN_TREE_TABLE" value="4" type="GuiHandlerData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="275" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="285" type="GuiHandlerData"/>
 <property name="FileSetPanel_MESSAGES" value="1" type="GuiHandlerData"/>
 <property name="FileSetView_COLLAPSE_ALL" value="1" type="GuiHandlerData"/>
 <property name="FileSetView_EXPAND_ALL" value="1" type="GuiHandlerData"/>
 <property name="FindAndReplaceAllDialog_FIND" value="2" type="GuiHandlerData"/>
 <property name="FindInFilesView_ROOT" value="8" type="GuiHandlerData"/>
-<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="27" type="GuiHandlerData"/>
-<property name="GettingStartedView_OPEN_PROJECT" value="14" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="29" type="GuiHandlerData"/>
+<property name="GettingStartedView_OPEN_PROJECT" value="15" type="GuiHandlerData"/>
 <property name="HCodeEditor_CLOSE" value="6" type="GuiHandlerData"/>
 <property name="HCodeEditor_SEARCH_TEXT_COMBO_BOX" value="9" type="GuiHandlerData"/>
 <property name="HInputHandler_FIND_TEXT_IN_CURRENT_FILE" value="2" type="GuiHandlerData"/>
 <property name="HJFileChooserHelpers_JUMP_TO_CURRENT_WORKING_DIRECTORY" value="3" type="GuiHandlerData"/>
 <property name="IPStatusSectionPanel_UPGRADE_SELECTED" value="1" type="GuiHandlerData"/>
 <property name="LanguageTemplatesDialog_TEMPLATES_TREE" value="7" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EDIT" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FLOW" value="5" type="GuiHandlerData"/>
+<property name="MainMenuMgr_HELP" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_REPORTS" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TOOLS" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_UNSELECT_TYPE" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_VIEW" value="5" type="GuiHandlerData"/>
+<property name="MainMenuMgr_WINDOW" value="2" type="GuiHandlerData"/>
 <property name="MainToolbarMgr_RUN" value="2" type="GuiHandlerData"/>
+<property name="MainWinMenuMgr_LAYOUT" value="4" type="GuiHandlerData"/>
 <property name="NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE" value="43" type="GuiHandlerData"/>
+<property name="OptionsView_CLOSE" value="1" type="GuiHandlerData"/>
 <property name="PACodeEditor_FIND_IN_FILES" value="1" type="GuiHandlerData"/>
 <property name="PACodeEditor_FIND_USAGES" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_LANGUAGE_TEMPLATES" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_SIMULATION_LIVE_BREAK" value="3" type="GuiHandlerData"/>
-<property name="PACommandNames_SIMULATION_LIVE_RESTART" value="95" type="GuiHandlerData"/>
-<property name="PACommandNames_SIMULATION_LIVE_RUN_ALL" value="329" type="GuiHandlerData"/>
-<property name="PACommandNames_SIMULATION_RELAUNCH" value="92" type="GuiHandlerData"/>
-<property name="PACommandNames_SIMULATION_RUN_BEHAVIORAL" value="22" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_LIVE_RESTART" value="97" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_LIVE_RUN_ALL" value="331" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_RELAUNCH" value="93" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_RUN_BEHAVIORAL" value="23" type="GuiHandlerData"/>
 <property name="PAViews_CODE" value="17" type="GuiHandlerData"/>
-<property name="PAViews_PROJECT_SUMMARY" value="22" type="GuiHandlerData"/>
+<property name="PAViews_PROJECT_SUMMARY" value="23" type="GuiHandlerData"/>
 <property name="PAViews_SCHEMATIC" value="1" type="GuiHandlerData"/>
 <property name="PlanAheadTab_SHOW_FLOW_NAVIGATOR" value="10" type="GuiHandlerData"/>
 <property name="PowerResultTab_REPORT_NAVIGATION_TREE" value="4" type="GuiHandlerData"/>
-<property name="ProgressDialog_BACKGROUND" value="1" type="GuiHandlerData"/>
+<property name="ProgressDialog_BACKGROUND" value="2" type="GuiHandlerData"/>
 <property name="ProgressDialog_CANCEL" value="4" type="GuiHandlerData"/>
 <property name="RDICommands_COPY" value="1" type="GuiHandlerData"/>
 <property name="RDICommands_LINE_COMMENT" value="9" type="GuiHandlerData"/>
@@ -90,9 +102,9 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE" value="1" type="GuiHandlerData"/>
 <property name="SaveProjectUtils_SAVE" value="2" type="GuiHandlerData"/>
 <property name="SearchCommandComponent_QUICK_ACCESS" value="3" type="GuiHandlerData"/>
-<property name="SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE" value="243" type="GuiHandlerData"/>
-<property name="SimulationScopesPanel_SIMULATE_SCOPE_TABLE" value="521" type="GuiHandlerData"/>
-<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="64" type="GuiHandlerData"/>
+<property name="SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE" value="246" type="GuiHandlerData"/>
+<property name="SimulationScopesPanel_SIMULATE_SCOPE_TABLE" value="527" type="GuiHandlerData"/>
+<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="68" type="GuiHandlerData"/>
 <property name="WaveformNameTree_WAVEFORM_NAME_TREE" value="102" type="GuiHandlerData"/>
 </item>
 <item name="Other">

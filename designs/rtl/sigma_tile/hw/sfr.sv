@@ -1,17 +1,10 @@
-/* число каторое будет адресом
+/*
  * sfr.sv
  *
  *  Created on: 27.12.2017
  *      Author: Alexander Antonov <antonov.alex.alex@gmail.com>
  *     License: See LICENSE file for details
- */
-//struct 
-
-//{
-//int codeOP;
-//int addr;
-//int data;
-//}
+ */ 
 
 `include "sigma_tile.svh"
 
@@ -293,28 +286,19 @@ always @(posedge clk_i)
 	
 	always @*
 	begin
-    //host.rdata <= 0;
 	   if (flag == 1)
 	   begin
-	   // запись в память
+	   // запись в память журнала
            testmem_host_we <= 1'b1;
            testmem_host_addr <= i;
            testmem_host_wdata <= {32'b0, buf1};
            i <= i + 1;
            flag <= 0;
-       end
-       
-//       if (testmem_host)
-//       begin
-//           host.resp <= testmem_host;
-//           host.rdata <= (testmem_host2_rdata >> (j*32));
-//       end          
+       end        
    end
    
    always @*
 	begin
-	
-	//host.rdata = 0;
 	 if (testmem_host)
        begin  
            host.resp = testmem_host;      
@@ -322,12 +306,6 @@ always @(posedge clk_i)
          
        end          
    end
-   
-//       else 
-//       if (flagR > 0) begin
-                
-//       end
-       
 
 assign host.ack = host.req;
 

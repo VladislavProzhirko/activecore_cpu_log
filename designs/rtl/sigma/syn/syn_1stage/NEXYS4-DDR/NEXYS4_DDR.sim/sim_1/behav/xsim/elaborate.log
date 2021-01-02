@@ -18,4 +18,70 @@ WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 
 WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v:61]
 WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v:120]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 55, File F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 61, File F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma/hw/sigma.sv" Line 12. Module sigma(CPU="riscv_1stage",UDM_RTX_EXTERNAL_OVERRIDE="YES",mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",mem_size=8192) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/reset_sync/reset_sync.v" Line 1. Module reset_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/debouncer/debouncer.v" Line 10. Module debouncer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sigma_tile.sv" Line 19. Module sigma_tile(mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",mem_size=8192,CPU="riscv_1stage") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/irq_adapter.sv" Line 10. Module irq_adapter_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/riscv/coregen/riscv_1stage/sverilog/riscv_1stage.sv" Line 9. Module riscv_1stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/arb_2m3s.sv" Line 12. Module arb_2m3s(SFR_BITSEL=20) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual_memsplit.v" Line 1. Module ram_dual_memsplit(mem_type="elf",mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",adr_width=30,mem_size=8192) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v" Line 1. Module ram_dual(mem_type="elf",mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",adr_width=30,mem_size=8192) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sfr.sv" Line 18. Module sfr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v" Line 1. Module ram_dual(mem_init="NO",mem_data="nodata_out.hex",dat_width=128,adr_width=20) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/udm.v" Line 10. Module udm(BUS_TIMEOUT=104857600,RTX_EXTERNAL_OVERRIDE="YES") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/uart_rx.v" Line 10. Module uart_rx(RTX_EXTERNAL_OVERRIDE="YES") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/uart_tx.v" Line 10. Module uart_tx(RTX_EXTERNAL_OVERRIDE="YES") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/udm_controller.v" Line 10. Module udm_controller(BUS_TIMEOUT=104857600) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma/hw/sigma.sv" Line 12. Module sigma(CPU="riscv_1stage",UDM_RTX_EXTERNAL_OVERRIDE="YES",mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",mem_size=8192) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/reset_sync/reset_sync.v" Line 1. Module reset_sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/debouncer/debouncer.v" Line 10. Module debouncer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sigma_tile.sv" Line 19. Module sigma_tile(mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",mem_size=8192,CPU="riscv_1stage") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../../../sigma_tile/hw/sigma_tile.svh" Line 13. Module MemSplit32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/irq_adapter.sv" Line 10. Module irq_adapter_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/riscv/coregen/riscv_1stage/sverilog/riscv_1stage.sv" Line 9. Module riscv_1stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/arb_2m3s.sv" Line 12. Module arb_2m3s(SFR_BITSEL=20) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual_memsplit.v" Line 1. Module ram_dual_memsplit(mem_type="elf",mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",adr_width=30,mem_size=8192) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v" Line 1. Module ram_dual(mem_type="elf",mem_data="F:/Vivado/Downloads/activecore/designs/rtl/sigma/sw/benchmarks/heartbeat_variable.riscv",adr_width=30,mem_size=8192) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/sigma_tile/hw/sfr.sv" Line 18. Module sfr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/ram/ram_dual.v" Line 1. Module ram_dual(mem_init="NO",mem_data="nodata_out.hex",dat_width=128,adr_width=20) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/udm.v" Line 10. Module udm(BUS_TIMEOUT=104857600,RTX_EXTERNAL_OVERRIDE="YES") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/uart_rx.v" Line 10. Module uart_rx(RTX_EXTERNAL_OVERRIDE="YES") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/uart_tx.v" Line 10. Module uart_tx(RTX_EXTERNAL_OVERRIDE="YES") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Vivado/Downloads/activecore/designs/rtl/udm/hdl/udm_controller.v" Line 10. Module udm_controller(BUS_TIMEOUT=104857600) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_arb_1m2s_sv
+Compiling module xil_defaultlib.MemSplit32
+Compiling module xil_defaultlib.reset_sync
+Compiling module xil_defaultlib.debouncer
+Compiling module xil_defaultlib.irq_adapter_default
+Compiling module xil_defaultlib.riscv_1stage
+Compiling module xil_defaultlib.arb_2m3s(SFR_BITSEL=20)
+Compiling module xil_defaultlib.ram_dual(mem_type="elf",mem_data...
+Compiling module xil_defaultlib.ram_dual_memsplit(mem_type="elf"...
+Compiling module xil_defaultlib.ram_dual(mem_init="NO",mem_data=...
+Compiling module xil_defaultlib.sfr
+Compiling module xil_defaultlib.sigma_tile(mem_data="F:/Vivado/D...
+Compiling module xil_defaultlib.uart_rx(RTX_EXTERNAL_OVERRIDE="Y...
+Compiling module xil_defaultlib.uart_tx(RTX_EXTERNAL_OVERRIDE="Y...
+Compiling module xil_defaultlib.udm_controller(BUS_TIMEOUT=10485...
+Compiling module xil_defaultlib.udm(BUS_TIMEOUT=104857600,RTX_EX...
+Compiling module xil_defaultlib.sigma(CPU="riscv_1stage",UDM_RTX...
+Compiling module xil_defaultlib.riscv_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot riscv_tb_behav
